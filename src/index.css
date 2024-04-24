@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.logo__border {
+  border-bottom: 1.5px solid #4b5a69;
+}
+.logo__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #334454;
+  border-radius: 10px;
+  width: 94%;
+  margin: 6.5px 0px 6.5px 5px;
+  height: 50px;
+}
+.logo {
+  color: #fff;
+}
+.custom-card .ant-card-head-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+}
+.evenDays {
+  background-color: #bc8e5c;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.oddDays {
+  background-color: #334454;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.xonalar {
+  background-color: #e7d9d0;
+  font-size: 20px;
+  font-weight: 900;
+}
+.xonaDanger {
+  background-color: #f5222d;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.xonaSuccess {
+  background-color: #006d75;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
