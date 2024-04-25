@@ -136,7 +136,7 @@ const Jadval = () => {
               loading={jadvalLoading}
               onClick={() => a()}
             >
-              Jadval yaratish
+              {`${nextPage ? "Jadvalga kirish" : "Jadval yaratish"}`}
             </Button>
           </NavLink>
         </Form.Item>
